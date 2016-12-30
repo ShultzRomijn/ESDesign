@@ -33,16 +33,7 @@
 	</head>
 	<body>
 
-<!-- 	<script type="text/javascript">
-		$("#swipe").swipe({
-		  swipeLeft:function(event, direction, distance, duration, fingerCount) {
-		    //This only fires when the user swipes left
-		  }
-		  swipeRight:function(event, direction, distance, duration, fingerCount) {
-		    //This only fires when the user swipes left
-		  }
-		});
-	</script> -->
+	
 
 		<?php include 'includes/header.php' ?>
 
@@ -371,6 +362,5 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
