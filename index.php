@@ -6,16 +6,43 @@
 -->
 <html>
 	<head>
-		<title>Untitled</title>
+		<title>ESDesign</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-
+		<link rel="apple-touch-icon" sizes="57x57" href="assets/fav/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="assets/fav/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/fav/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="assets/fav/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/fav/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="assets/fav/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="assets/fav/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="assets/fav/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/fav/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/fav/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="assets/fav/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/fav/favicon-16x16.png">
+		<link rel="manifest" href="assets/fav/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="assets/fav/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
+
+<!-- 	<script type="text/javascript">
+		$("#swipe").swipe({
+		  swipeLeft:function(event, direction, distance, duration, fingerCount) {
+		    //This only fires when the user swipes left
+		  }
+		  swipeRight:function(event, direction, distance, duration, fingerCount) {
+		    //This only fires when the user swipes left
+		  }
+		});
+	</script> -->
 
 		<?php include 'includes/header.php' ?>
 
@@ -47,10 +74,7 @@
 										</form>
 									</div>
 									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
 										<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
 									</ul>
 								</div>

@@ -7,7 +7,8 @@
 		<div id="wrapper">
 			<!-- Main -->
 			<div id="main">
-				<article class="thumb">
+				<?php include '../includes/getPhotos.php'; ?>
+				<!-- <article class="thumb">
 					<a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt="" /></a>
 					<h2>Magna feugiat lorem</h2>
 					<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
@@ -66,7 +67,7 @@
 					<a href="images/fulls/12.jpg" class="image"><img src="images/thumbs/12.jpg" alt="" /></a>
 					<h2>Vehicula id nulla dignissim</h2>
 					<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-				</article>
+				</article> -->
 			</div>
 
 		<!-- Footer -->
